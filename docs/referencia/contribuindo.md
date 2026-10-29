@@ -40,7 +40,7 @@ make test
 | `pkg/stdlib/` | Biblioteca padrão oficial (BibVerbo: `matematica`, `texto`, `arquivo`, `csv`, `json`, `html`, `internet`, `criptografia`). |
 | `examples/` | Catálogo de programas `.vrb` de demonstração e testes de usuário. |
 | `docs/` | Documentação oficial do projeto. |
-| `vscode-extension/` | Extensão oficial para o Visual Studio Code. |
+| [`verbo-lang/vscode-extension`](https://github.com/verbo-lang/vscode-extension) | Extensão oficial para o Visual Studio Code (repositório separado). |
 
 ---
 

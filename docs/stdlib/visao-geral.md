@@ -1,4 +1,4 @@
-# Visão Geral da BibVerbo
+﻿# Visão Geral da BibVerbo
 
 A **BibVerbo** é a biblioteca padrão oficial. Os módulos vivem em `pkg/stdlib/` e são importados com `Incluir`.
 
@@ -21,7 +21,7 @@ Incluir Sistema.
 O nome do pacote é case-insensitive (`Incluir matematica.` também funciona). O transpiler gera o import Go correspondente:
 
 ```go
-import "github.com/juanxto/crom-verbo/pkg/stdlib/matematica"
+import "github.com/verbo-lang/lang/pkg/stdlib/matematica"
 ```
 
 Pacotes desconhecidos caem no fallback `import "nome"` (útil para módulos externos no futuro).

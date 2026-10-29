@@ -1,4 +1,4 @@
-// Exemplo de concorrência em Verbo 2.0 usando Canais e Simultaneamente
+// Exemplo de concorrência em Verbo 0.1.0 usando Canais e Simultaneamente
 
 Para ProcessarPacote usando (pacote: Inteiro, canal_envio: Canal_Inteiros) :
     Exibir "Processando pacote...".

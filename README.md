@@ -46,21 +46,6 @@ Repita 5 vezes:
     Exibir com (contador).
 ```
 
-## 📁 Estrutura do Projeto
-
-```
-crom-verbo/
-├── cmd/verbo/          # CLI principal
-├── pkg/
-│   ├── lexer/          # Análise léxica (tokenização)
-│   ├── parser/         # Análise sintática (AST)
-│   ├── ast/            # Árvore de Sintaxe Abstrata
-│   └── transpiler/     # Geração de código Go
-├── examples/           # Programas de exemplo .vrb
-├── tests/              # Testes de integração
-└── docs/               # Documentação completa
-```
-
 ## 📚 Documentação
 
 - [Especificação da Linguagem](docs/ESPECIFICACAO.md)

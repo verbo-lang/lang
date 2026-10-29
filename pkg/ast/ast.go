@@ -1,9 +1,9 @@
-// Package ast define os nós da Árvore de Sintaxe Abstrata (AST) da linguagem Verbo.
+﻿// Package ast define os nós da Árvore de Sintaxe Abstrata (AST) da linguagem Verbo.
 // Cada construto da linguagem (declaração, expressão, comando) é representado
 // por um tipo que implementa a interface No.
 package ast
 
-import "github.com/juanxto/crom-verbo/pkg/lexer"
+import "github.com/verbo-lang/lang/pkg/lexer"
 
 // No é a interface base para todos os nós da AST.
 type No interface {

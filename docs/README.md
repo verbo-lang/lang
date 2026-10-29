@@ -60,7 +60,7 @@ Exibir "Token da sessão: " + token_sessao.
     </td>
     <td width="50%">
       <h3>📘 <a href="linguagem/variaveis-e-constantes.md">Guia da Linguagem</a></h3>
-      <p>Domine a sintaxe do Verbo 2.0, variáveis, funções, entidades, concorrência e tratamento de erros.</p>
+      <p>Domine a sintaxe do Verbo 0.1.0, variáveis, funções, entidades, concorrência e tratamento de erros.</p>
       <ul>
         <li><a href="linguagem/variaveis-e-constantes.md">Ser vs Estar</a></li>
         <li><a href="linguagem/entidades.md">Entidades (Structs)</a></li>

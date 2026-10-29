@@ -1,4 +1,4 @@
-// Package csv implementa funções de leitura e escrita de arquivos CSV
+﻿// Package csv implementa funções de leitura e escrita de arquivos CSV
 // para a linguagem de programação Verbo.
 // Parte da BibVerbo (Biblioteca Padrão do Verbo).
 //
@@ -15,7 +15,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/juanxto/crom-verbo/pkg/stdlib/arquivo"
+	"github.com/verbo-lang/lang/pkg/stdlib/arquivo"
 )
 
 // Ler parseia uma string CSV e retorna uma lista de listas (uma lista por linha).

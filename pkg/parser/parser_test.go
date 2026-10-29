@@ -1,10 +1,10 @@
-package parser
+﻿package parser
 
 import (
 	"testing"
 
-	"github.com/juanxto/crom-verbo/pkg/ast"
-	"github.com/juanxto/crom-verbo/pkg/lexer"
+	"github.com/verbo-lang/lang/pkg/ast"
+	"github.com/verbo-lang/lang/pkg/lexer"
 )
 
 func analisarPrograma(t *testing.T, entrada string) *ast.Programa {

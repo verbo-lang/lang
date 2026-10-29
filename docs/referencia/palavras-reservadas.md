@@ -51,7 +51,7 @@ Catálogo completo de palavras-chave, artigos, conectores, tipos e delimitadores
 
 ---
 
-## 4. Concorrência e Canais (Verbo 2.0)
+## 4. Concorrência e Canais (Verbo 0.1.0)
 
 | Token | Palavras-chave | Uso Sintático |
 | :--- | :--- | :--- |
@@ -63,7 +63,7 @@ Catálogo completo de palavras-chave, artigos, conectores, tipos e delimitadores
 
 ---
 
-## 5. Entidades e Tratamento de Erros (Verbo 2.0)
+## 5. Entidades e Tratamento de Erros (Verbo 0.1.0)
 
 | Token | Palavras-chave | Uso Sintático |
 | :--- | :--- | :--- |
@@ -76,7 +76,7 @@ Catálogo completo de palavras-chave, artigos, conectores, tipos e delimitadores
 
 ---
 
-## 6. Servidor Web (Verbo 3.0)
+## 6. Servidor Web (Verbo 0.1.0)
 
 | Token | Palavras-chave | Uso Sintático |
 | :--- | :--- | :--- |

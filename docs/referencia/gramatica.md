@@ -1,4 +1,4 @@
-# Gramática Formal EBNF (Verbo 2.0 / 3.0)
+# Gramática Formal EBNF (Verbo 0.1.0 / 3.0)
 
 Esta é a especificação formal completa da gramática da Linguagem Verbo na notação **EBNF** (*Extended Backus-Naur Form*), cobrindo variáveis, entidades, funções, concorrência, tratamento de erros, biblioteca padrão e servidor web.
 

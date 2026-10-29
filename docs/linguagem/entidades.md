@@ -1,6 +1,6 @@
 # Entidades (Estruturas)
 
-Entidades são o equivalente a *structs*: agrupam campos nomeados e tipados em um único tipo. No Verbo 2.0, a declaração usa `entidade` + `contendo`, e o acesso a campos usa a preposição `de`.
+Entidades são o equivalente a *structs*: agrupam campos nomeados e tipados em um único tipo. No Verbo 0.1.0, a declaração usa `entidade` + `contendo`, e o acesso a campos usa a preposição `de`.
 
 ---
 

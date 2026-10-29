@@ -1,6 +1,6 @@
 # Extensão para VS Code
 
-Extensão oficial na pasta `vscode-extension/`. Dá destaque de sintaxe, linter, hover, IntelliSense, outline e comandos para arquivos `.vrb`.
+Extensão oficial disponível em [github.com/verbo-lang/vscode-extension](https://github.com/verbo-lang/vscode-extension). Dá destaque de sintaxe, linter, hover, IntelliSense, outline e comandos para arquivos `.vrb`.
 
 ---
 
@@ -64,6 +64,7 @@ Em Configurações, busque `Verbo`:
 ## Instalar localmente
 
 ```bash
+git clone https://github.com/verbo-lang/vscode-extension
 cd vscode-extension
 npm install
 npm run build

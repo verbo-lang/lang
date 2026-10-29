@@ -20,7 +20,7 @@ O compilador transpilada isso diretamente para um loop `for i := 0; i < N; i++` 
 
 ## 2. Iteração sobre Listas (`Repita para cada`)
 
-No Verbo 2.0, é possível percorrer cada elemento de uma lista facilmente com `Repita para cada <item> em <coleção>`:
+No Verbo 0.1.0, é possível percorrer cada elemento de uma lista facilmente com `Repita para cada <item> em <coleção>`:
 
 ```verbo
 Uma compras está ["Maçã", "Pão", "Café", "Queijo"].

@@ -1,12 +1,12 @@
-package transpiler
+﻿package transpiler
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/juanxto/crom-verbo/pkg/ast"
-	"github.com/juanxto/crom-verbo/pkg/lexer"
-	"github.com/juanxto/crom-verbo/pkg/parser"
+	"github.com/verbo-lang/lang/pkg/ast"
+	"github.com/verbo-lang/lang/pkg/lexer"
+	"github.com/verbo-lang/lang/pkg/parser"
 )
 
 func transpilarCodigo(t *testing.T, entrada string) string {
@@ -363,9 +363,9 @@ func TestTranspilarIncluir(t *testing.T) {
 	codigoGerado := transpilarCodigo(t, codigo)
 
 	esperados := []string{
-		`"github.com/juanxto/crom-verbo/pkg/stdlib/matematica"`,
-		`"github.com/juanxto/crom-verbo/pkg/stdlib/internet"`,
-		`"github.com/juanxto/crom-verbo/pkg/stdlib/criptografia"`,
+		`"github.com/verbo-lang/lang/pkg/stdlib/matematica"`,
+		`"github.com/verbo-lang/lang/pkg/stdlib/internet"`,
+		`"github.com/verbo-lang/lang/pkg/stdlib/criptografia"`,
 		`"exemplocustom"`,
 		`valor := 10`,
 		`resp := internet.Obter("http://localhost")`,

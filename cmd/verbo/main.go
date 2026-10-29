@@ -1,4 +1,4 @@
-// Verbo CLI — Ferramenta de linha de comando para a linguagem Verbo.
+﻿// Verbo CLI — Ferramenta de linha de comando para a linguagem Verbo.
 // Subcomandos:
 //   verbo compilar <arquivo.vrb>   — Transpila para Go e compila
 //   verbo executar <arquivo.vrb>   — Transpila, compila e executa
@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/juanxto/crom-verbo/pkg/lexer"
-	"github.com/juanxto/crom-verbo/pkg/parser"
-	"github.com/juanxto/crom-verbo/pkg/transpiler"
+	"github.com/verbo-lang/lang/pkg/lexer"
+	"github.com/verbo-lang/lang/pkg/parser"
+	"github.com/verbo-lang/lang/pkg/transpiler"
 )
 
 const versao = "0.1.0"

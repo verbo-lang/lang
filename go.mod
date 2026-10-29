@@ -1,3 +1,3 @@
-module github.com/juanxto/crom-verbo
+module github.com/verbo-lang/lang
 
 go 1.22.2

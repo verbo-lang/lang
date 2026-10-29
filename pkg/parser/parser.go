@@ -1,4 +1,4 @@
-// Package parser implementa o analisador sintático da linguagem Verbo.
+﻿// Package parser implementa o analisador sintático da linguagem Verbo.
 // Utiliza Recursive Descent Parsing para construir a AST a partir dos tokens.
 package parser
 
@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/juanxto/crom-verbo/pkg/ast"
-	"github.com/juanxto/crom-verbo/pkg/lexer"
+	"github.com/verbo-lang/lang/pkg/ast"
+	"github.com/verbo-lang/lang/pkg/lexer"
 )
 
 // Parser é o analisador sintático da linguagem Verbo.

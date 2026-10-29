@@ -1,6 +1,6 @@
 # Concorrência e Canais
 
-O Verbo 2.0 expõe goroutines e canais do Go com vocabulário em português: `Simultaneamente`, `Canal`, `Enviar` e `Receber`.
+O Verbo 0.1.0 expõe goroutines e canais do Go com vocabulário em português: `Simultaneamente`, `Canal`, `Enviar` e `Receber`.
 
 > **Nota:** a palavra-chave `Aguarde` está reservada no lexer, mas a sincronização de `Simultaneamente` já é automática (`WaitGroup.Wait()`). Não é necessário escrever `Aguarde` no código atual.
 

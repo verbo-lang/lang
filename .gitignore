@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════
-# Crom-Verbo — .gitignore
+# Verbo — .gitignore
 # ═══════════════════════════════════════════
 
 # Binários compilados
@@ -20,18 +20,6 @@ verbo_*
 # Arquivos Go gerados automaticamente pelo Transpilador
 *_verbo.go
 fizz_verbo.go
-
-# Artefatos da API Web PHP
-www/api/verbo_*
-
-# Binários de distribuição — versionados no repo para install.sh
-# www/downloads/ NÃO ignorado (precisa estar no GitHub)
-
-# Script de debug (não versionar)
-www/testar_compilador.sh
-
-# Arquivos JS temporários / rascunhos
-www/js/new_exemplos.js
 
 # Arquivos do OS e IDEs
 .DS_Store

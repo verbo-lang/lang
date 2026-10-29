@@ -39,7 +39,7 @@ O ativo é Verdadeiro.
 O cancelado é Falso.
 ```
 
-### 4. Listas (Verbo 2.0)
+### 4. Listas (Verbo 0.1.0)
 Listas são delimitadas por colchetes `[` e `]` com elementos separados por vírgula:
 ```verbo
 Uma notas está [8.5, 9.0, 7.5, 10.0].

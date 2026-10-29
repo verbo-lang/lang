@@ -1,6 +1,6 @@
 # Tratamento de Erros
 
-O Verbo 2.0 modela falhas com três palavras-chave: `Tente` (try), `Capture` (recover) e `Sinalize` (panic). O transpiler gera o padrão `defer`/`recover` do Go.
+O Verbo 0.1.0 modela falhas com três palavras-chave: `Tente` (try), `Capture` (recover) e `Sinalize` (panic). O transpiler gera o padrão `defer`/`recover` do Go.
 
 ---
 

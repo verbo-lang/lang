@@ -1,6 +1,6 @@
 # Servidor HTTP Nativo
 
-O Verbo 3.0 inclui um servidor HTTP estilo Flask: declare a instância, registre rotas e inicie. O CLI `verbo servir` transpila e sobrescreve host/porta via ambiente.
+O Verbo 0.1.0 inclui um servidor HTTP estilo Flask: declare a instância, registre rotas e inicie. O CLI `verbo servir` transpila e sobrescreve host/porta via ambiente.
 
 ---
 

@@ -1,4 +1,4 @@
-// Package transpiler converte a AST da linguagem Verbo em código Go compilável.
+﻿// Package transpiler converte a AST da linguagem Verbo em código Go compilável.
 // Utiliza o padrão Visitor para percorrer cada nó da árvore e gerar
 // o código Go equivalente.
 package transpiler
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/juanxto/crom-verbo/pkg/ast"
+	"github.com/verbo-lang/lang/pkg/ast"
 )
 
 // Transpiler converte uma AST Verbo em código-fonte Go.
@@ -101,21 +101,21 @@ func (t *Transpiler) Transpilar(programa *ast.Programa) (string, error) {
 for imp := range t.imports {
 		switch strings.ToLower(imp) {
 		case "matematica":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/matematica\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/matematica\"")
 		case "texto":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/texto\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/texto\"")
 		case "arquivo":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/arquivo\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/arquivo\"")
 		case "html":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/html\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/html\"")
 		case "internet":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/internet\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/internet\"")
 		case "criptografia":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/criptografia\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/criptografia\"")
 		case "json":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/json\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/json\"")
 		case "csv":
-			t.escreverLinha("\t\"github.com/juanxto/crom-verbo/pkg/stdlib/csv\"")
+			t.escreverLinha("\t\"github.com/verbo-lang/lang/pkg/stdlib/csv\"")
 		default:
 			// Fallback simplificado se não achar na BibVerbo: import direto
 			t.escreverLinha(fmt.Sprintf("\t%q", strings.ToLower(imp)))
